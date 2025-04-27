@@ -1,9 +1,9 @@
-package HomeWorks.Service;
+package HomeWorks.service;
 
 
 
-import HomeWorks.Model.Post;
-import HomeWorks.PostRepository.PostRepository;
+import HomeWorks.model.Post;
+import HomeWorks.repository.PostRepository;
 import HomeWorks.exception.NotFoundException;
 
 import java.util.List;

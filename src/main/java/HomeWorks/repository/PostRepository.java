@@ -1,8 +1,8 @@
-package HomeWorks.PostRepository;
+package HomeWorks.repository;
 
 
 
-import HomeWorks.Model.Post;
+import HomeWorks.model.Post;
 import HomeWorks.exception.NotFoundException;
 
 import java.util.ArrayList;

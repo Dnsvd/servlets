@@ -7,7 +7,7 @@
     <!-- определение servlet'а -->
     <servlet>
         <servlet-name>mainServlet</servlet-name>
-        <servlet-class>HomeWorks.Servlet.MainServlet</servlet-class>
+        <servlet-class>HomeWorks.servlet.MainServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 

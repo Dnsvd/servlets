@@ -1,13 +1,9 @@
-package HomeWorks.Servlet;
+package HomeWorks.servlet;
 
-import HomeWorks.PostController.PostController;
-import HomeWorks.PostRepository.PostRepository;
-import HomeWorks.Service.PostService;
+import HomeWorks.controller.PostController;
+import HomeWorks.repository.PostRepository;
+import HomeWorks.service.PostService;
 
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -34,11 +30,11 @@ public class MainServlet extends HttpServlet {
 
     private PostController controller;
 
-    @Override
-    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        res.setContentType("text/plain");
-        res.getWriter().print("Hello World");
-    }
+//    @Override
+//    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+//        res.setContentType("text/plain");
+//        res.getWriter().print("Hello World");
+//    }
 
         @Override
     public void init() {

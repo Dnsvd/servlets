@@ -1,4 +1,4 @@
-package HomeWorks.Model;
+package HomeWorks.model;
 
 public class Post {
     private long id;

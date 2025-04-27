@@ -1,9 +1,9 @@
-package HomeWorks.PostController;
+package HomeWorks.controller;
 
-import HomeWorks.Service.PostService;
+import HomeWorks.service.PostService;
 import HomeWorks.exception.NotFoundException;
 import com.google.gson.Gson;
-import HomeWorks.Model.Post;
+import HomeWorks.model.Post;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
